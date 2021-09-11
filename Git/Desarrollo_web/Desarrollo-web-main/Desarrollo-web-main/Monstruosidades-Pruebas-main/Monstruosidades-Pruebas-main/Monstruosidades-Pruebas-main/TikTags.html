@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<link rel="stylesheet" href="estilos.css">
+<link rel="stylesheet" href="estilos2.css">
+<link rel="stylesheet" href="funciones.js">
+
+    <h1 class="titulo">Tik Tags</h1>
+
+    <nav>
+        <div class="madre">
+
+        <div class="contenedor">
+            <button id="rocket" onclick="Funcion1()"><h4>ROCKET</h4></button>
+
+        </div>
+        <div class="contenedor">
+            <button id="apex" onclick="Funcion2()"><h4>APEX</h4></button>
+
+        </div>
+        <div class="contenedor">
+            <button id="r6" onclick="Funcion3()"><h4>R6</h4></button>
+
+        </div>
+    </div>
+    </nav>
+    <script hidden>
+        function Funcion1() {
+  var copyText = document.getElementById("MyInput");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999)
+  document.execCommand("copy");
+  alert(" Copiado " + copyText.value);
+}
+    </script>
+    <script hidden>
+        function Funcion2() {
+  var copyText = document.getElementById("inputo");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999)
+  document.execCommand("copy");
+  alert(" Copiado " + copyText.value);
+}
+    </script>
+    <script hidden>
+        function Funcion3() {
+  var copyText = document.getElementById("inputo2");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999)
+  document.execCommand("copy");
+  alert(" Copiado " + copyText.value);
+}
+    </script>    
+
+
+<input class="jover"  type="text" value="#clipsitos #- #rocket #rocketleague #gaming #stream #streamer #twitch #parati #fyp #xyp #xyzbca" id="MyInput">
+<input  type="text" value="#clipsitos #- #gaming #streamer #twitch #apex #apexlegends #parati #fyp #xyzbca #xyp #pc #sniper #headshot
+" id="inputo">
+<input  type="text" value="#Clipsitos #- #R6 #rainbowsixsiege #gaming #twitch #streamer #gamer #parati #fyp #xyzbca #xyz
+" id="inputo2">
+    
+</body>
+</html>

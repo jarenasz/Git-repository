@@ -1,0 +1,127 @@
+*{
+    display: block;
+}
+
+.titulo {
+    background-color: #69C9D0;
+    font-family: 'Dance';
+    padding-top: 100px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 100px;
+    
+    
+}
+
+body {
+    background: #010101;
+}
+input {
+    opacity: 0%;
+    padding-bottom: 100%;
+}
+
+
+#BotonRocket {
+    padding: 100px;
+    background: #69C9D0;
+    font-family: 'Dance';
+    color: #FFFFFF;
+    padding-left: 230px;
+    padding-right: 230px;
+    float: left;
+    margin-left: 100px;
+    border: 5px;
+    border-color: white;
+    border-style: solid;
+}
+#rocket {
+    padding: 100px;
+    background: #69C9D0;
+    font-family: 'Dance';
+    color: black;
+    padding-left: 230px;
+    padding-right: 230px;
+    float: left;
+    margin-left: 100px;
+    border: 5px;
+    border-color: white;
+    border-style: solid;
+}
+
+#apex {
+    padding: 100px;
+    background: #FFFFFF;
+    font-family: 'Dance';
+    color: #010101;
+    padding-left: 200px;
+    padding-right: 200px;
+    float: left;
+    margin-left: 100px;
+    border: 5px;
+    border-color: #69C9D0;
+    border-style: solid;
+}
+
+#r6 {
+    padding: 100px;
+    background: #EE1D52;
+    font-family: 'Dance';
+    color: #FFFFFF;
+    padding-left: 210px;
+    padding-right: 230px;
+    float: left;
+    margin-left: 100px;
+    border: 5px;
+    border-color:#FFFFFF ;
+    border-style: solid;
+    text-align: center;
+    transition: all;
+}
+
+#r6:hover {
+    cursor: pointer;
+    display: inline-block;
+    background-color: #c21944;
+    
+}
+
+#apex:hover {
+    cursor: pointer;
+    background-color: #e3e3e3;
+}
+
+#rocket:hover {
+    cursor: pointer;
+    background: #74dbe3;
+}
+
+#rocket {
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+  @keyframes example {
+    from {background-color: #c21944;}
+    to {background-color: #69C9D0;}
+  }
+  #r6 {
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+  @keyframes example {
+    from {background-color: #FFFFFF;}
+    to {background-color: #EE1D52;}
+  }
+
+  #apex {
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+  @keyframes example {
+    from {background-color: #EE1D52;}
+    to {background-color: #FFFFFF;}
+  }
+  
